@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(215, 215, 209);
+}
+
+.aside{
+    position: fixed;
+    width: 500px;
+    height: 100vh;
+    padding: 20px;
+    background-color: cornflowerblue;
+    transition: .5s ease;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header .texto1{
+    font-size: 50px;
+    color: #fff;
+    
+}
+
+.header i{
+    color: #fff;
+    font-size: 40px;
+}
+
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    
+}
+
+.nav-bar:hover{
+    background-color: rgba(71, 61, 139, 0.269);
+}
+
+.nav-bar i{
+    font-size: 40px;
+    margin-right: 30px;
+    color: #fff;
+}
+
+.nav-bar .texto{
+    color: #fff;
+    font-size: 25px;
+}
+
+.aside.activo{
+    width: 95px;
+    overflow: hidden;
+}
+
+.texto1.activo{
+    display: none;
+}
+
+i.activo{
+    margin: 0 auto;
+    font-size: 35px;
+}
